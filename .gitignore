@@ -1,0 +1,6 @@
+# Vitis workspace / Eclipse IDE
+*.metadata/
+*.log
+*.tmp
+/.settings/
+/.project
