@@ -1,0 +1,324 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Oct  2 14:44:30 2025
+# Process ID: 11557
+# Current directory: /home/dmplab/MNGWYw26/umgn/mnghw/mnghw.runs/zedbmg_sys_measdif_0_0_synth_1
+# Command line: vivado -log zedbmg_sys_measdif_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zedbmg_sys_measdif_0_0.tcl
+# Log file: /home/dmplab/MNGWYw26/umgn/mnghw/mnghw.runs/zedbmg_sys_measdif_0_0_synth_1/zedbmg_sys_measdif_0_0.vds
+# Journal file: /home/dmplab/MNGWYw26/umgn/mnghw/mnghw.runs/zedbmg_sys_measdif_0_0_synth_1/vivado.jou
+# Running On: pae26lx, OS: Linux, CPU Frequency: 4398.708 MHz, CPU Physical cores: 14, Host memory: 16435 MB
+#-----------------------------------------------------------
+source zedbmg_sys_measdif_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/dmplab/MNGWYw26/umgn/mnghw/ip_repo/measdif_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top zedbmg_sys_measdif_0_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11743
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2641.129 ; gain = 0.000 ; free physical = 161 ; free virtual = 4786
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'zedbmg_sys_measdif_0_0' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ip/zedbmg_sys_measdif_0_0/synth/zedbmg_sys_measdif_0_0.vhd:95]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'measdif_v1_0' declared at '/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0.vhd:5' bound to instance 'U0' of component 'measdif_v1_0' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ip/zedbmg_sys_measdif_0_0/synth/zedbmg_sys_measdif_0_0.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'measdif_v1_0' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0.vhd:61]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'measdif_v1_0_S00_AXI' declared at '/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:5' bound to instance 'measdif_v1_0_S00_AXI_inst' of component 'measdif_v1_0_S00_AXI' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'measdif_v1_0_S00_AXI' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:98]
+INFO: [Synth 8-226] default block is never used [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:313]
+INFO: [Synth 8-226] default block is never used [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:484]
+	Parameter USPI_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'sph1pol1' declared at '/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/sph1pol1.vhd:13' bound to instance 'max_pmod' of component 'sph1pol1' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:587]
+INFO: [Synth 8-638] synthesizing module 'sph1pol1' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/sph1pol1.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'sph1pol1' (0#1) [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/sph1pol1.vhd:28]
+	Parameter USPI_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'adc2lane' declared at '/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/adc2lane.vhd:13' bound to instance 'adcRX' of component 'adc2lane' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:621]
+INFO: [Synth 8-638] synthesizing module 'adc2lane' [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/adc2lane.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'adc2lane' (0#1) [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/adc2lane.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'measdif_v1_0_S00_AXI' (0#1) [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'measdif_v1_0' (0#1) [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'zedbmg_sys_measdif_0_0' (0#1) [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ip/zedbmg_sys_measdif_0_0/synth/zedbmg_sys_measdif_0_0.vhd:95]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:300]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg4_reg was removed.  [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:302]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg5_reg was removed.  [/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.gen/sources_1/bd/zedbmg_sys/ipshared/5b7f/hdl/measdif_v1_0_S00_AXI.vhd:303]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module measdif_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module measdif_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module measdif_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module measdif_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module measdif_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module measdif_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2641.129 ; gain = 0.000 ; free physical = 4303 ; free virtual = 8893
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2641.129 ; gain = 0.000 ; free physical = 4218 ; free virtual = 8808
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2641.129 ; gain = 0.000 ; free physical = 4218 ; free virtual = 8808
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2641.129 ; gain = 0.000 ; free physical = 4264 ; free virtual = 8855
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2705.160 ; gain = 0.000 ; free physical = 4251 ; free virtual = 8854
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2705.160 ; gain = 0.000 ; free physical = 4249 ; free virtual = 8853
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 4385 ; free virtual = 8992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 4384 ; free virtual = 8991
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 4390 ; free virtual = 8998
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'ssl_state_reg' in module 'sph1pol1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'sph1pol1'
+INFO: [Synth 8-802] inferred FSM for state register 'ssl_state_reg' in module 'adc2lane'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'adc2lane'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   sidle |                              000 |                              000
+                 sstartx |                              001 |                              001
+               sstart_lo |                              010 |                              010
+                 sclk_hi |                              011 |                              100
+                 sclk_lo |                              100 |                              011
+                 stop_hi |                              101 |                              101
+                 stop_lo |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'sph1pol1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                ssl_idle |                              001 |                               00
+               ssl_start |                              010 |                               01
+                 ssl_run |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ssl_state_reg' using encoding 'one-hot' in module 'sph1pol1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   sidle |                              000 |                              000
+                 sstartx |                              001 |                              001
+                 sclk_hi |                              010 |                              011
+                sstop_lo |                              011 |                              100
+                sstop_hi |                              100 |                              101
+                 sclk_lo |                              101 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'adc2lane'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                ssl_idle |                              001 |                               00
+               ssl_start |                              010 |                               01
+                 ssl_run |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ssl_state_reg' using encoding 'one-hot' in module 'adc2lane'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 4486 ; free virtual = 9096
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 6     
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 5     
+	   8 Input   32 Bit        Muxes := 5     
+	   2 Input   24 Bit        Muxes := 1     
+	   5 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 14    
+	   7 Input    3 Bit        Muxes := 6     
+	   6 Input    3 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 16    
+	   7 Input    1 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 3     
+	   5 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module zedbmg_sys_measdif_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module zedbmg_sys_measdif_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module zedbmg_sys_measdif_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module zedbmg_sys_measdif_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module zedbmg_sys_measdif_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module zedbmg_sys_measdif_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 4412 ; free virtual = 9047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3891 ; free virtual = 8533
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3891 ; free virtual = 8533
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3890 ; free virtual = 8532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3938 ; free virtual = 8580
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3938 ; free virtual = 8580
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3937 ; free virtual = 8579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3937 ; free virtual = 8579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3936 ; free virtual = 8578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3936 ; free virtual = 8578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     6|
+|2     |LUT1   |    25|
+|3     |LUT2   |     3|
+|4     |LUT3   |    50|
+|5     |LUT4   |    23|
+|6     |LUT5   |    94|
+|7     |LUT6   |    23|
+|8     |MUXF7  |    13|
+|9     |FDRE   |   250|
+|10    |FDSE   |    42|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3935 ; free virtual = 8577
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2705.160 ; gain = 0.000 ; free physical = 3976 ; free virtual = 8619
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 3976 ; free virtual = 8619
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2705.160 ; gain = 0.000 ; free physical = 4058 ; free virtual = 8701
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2705.160 ; gain = 0.000 ; free physical = 4295 ; free virtual = 8939
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 89dfa52b
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 2705.160 ; gain = 64.031 ; free physical = 4495 ; free virtual = 9139
+INFO: [Common 17-1381] The checkpoint '/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.runs/zedbmg_sys_measdif_0_0_synth_1/zedbmg_sys_measdif_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zedbmg_sys_measdif_0_0, cache-ID = acd796d5dead77af
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/dmplab/MNGWYw26/umgn/mnghw/mnghw.runs/zedbmg_sys_measdif_0_0_synth_1/zedbmg_sys_measdif_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zedbmg_sys_measdif_0_0_utilization_synth.rpt -pb zedbmg_sys_measdif_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  2 14:44:51 2025...

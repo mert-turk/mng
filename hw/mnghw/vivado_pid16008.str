@@ -1,0 +1,330 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:13:54 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 16008
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jan 07 15:06:05 CET 2026
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 6.8.0-90-generic
+OS Architecture: amd64
+Available processors (cores): 12
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1200
+Local screen bounds: x = 0, y = 27, width = 1920, height = 1106
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	/tools/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7
+Java executable: 	/tools/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	mat
+User home directory: /home/mat
+User working directory: /home/mat/mywork/mng/MNGWYw26/umgn/mnghw
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2023.2
+RDI_DATADIR: /tools/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: /home/mat/.Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: /home/mat/.Xilinx/Vivado/2023.2/
+Vivado layouts directory: /home/mat/.Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/mat/mywork/mng/MNGWYw26/umgn/mnghw/vivado.log
+Vivado journal file: 	/home/mat/mywork/mng/MNGWYw26/umgn/mnghw/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-16008-mat-pc
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/Vivado/2023.2
+RDI_BASEROOT: /tools/Xilinx/Vivado
+RDI_BINROOT: /tools/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: /tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu/22:/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vivado/2023.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/Vitis/2023.2/bin:/tools/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/mat/mywork/mng/MNGWYw26/umgn/mnghw:mat-pc_1767794749_15967
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: /tools/Xilinx/Vivado/2023.2/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2023.2
+XILINX_SDK: /tools/Xilinx/Vitis/2023.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2023.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2023.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,427 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,451 MB. GUI used memory: 67 MB. Current time: 1/7/26, 3:06:07 PM CET
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.xpr", 2); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE, "Open project in read-only mode"); // a (PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// Opening Vivado Project: /home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.xpr. Version: Vivado v2022.1 
+dismissDialog("Older Project Version"); // at (dialog0)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 140 MB (+144680kb) [00:00:22]
+// [Engine Memory]: 1,550 MB (+1473554kb) [00:00:22]
+// [Engine Memory]: 1,723 MB (+100535kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  2621 ms.
+// Tcl Message: open_project -read_only /home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/dmplab/MNGWYw26/umgn/mnghw' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mat/mywork/mng/MNGWYw26/umgn/mnghw/ip_repo/measdif_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'. 
+// [GUI Memory]: 152 MB (+4994kb) [00:00:25]
+// Project name: mnghw; location: /home/mat/mywork/mng/MNGWYw26/umgn/mnghw; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,788 MB. GUI used memory: 77 MB. Current time: 1/7/26, 3:06:22 PM CET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Project is Read-Only"); // v (dialog1)
+// [Engine Memory]: 1,857 MB (+50308kb) [00:00:29]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.srcs/sources_1/bd/zedbmg_sys/zedbmg_sys.bd} 
+// Tcl Message: Reading block design file </home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.srcs/sources_1/bd/zedbmg_sys/zedbmg_sys.bd>... Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Adding component instance block -- user.org:user:measdif:1.0 - measdif_0 Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M Successfully read diagram <zedbmg_sys> from block design file </home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.srcs/sources_1/bd/zedbmg_sys/zedbmg_sys.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1550 ms.
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+// WARNING: HTimer (Open addressing views timer) is taking 62ms to process. Increasing delay to 1300 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /measdif_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 619, 310, 1192, 596, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /measdif_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // al (PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // al (PAResourceQtoS.SystemBuilderView_ORIENTATION, Orientation)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ao (PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, edit_in_ip_packager_menu)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Cancel"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1841 ms.
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name measdif_v1_0_project -directory /home/mat/mywork/mng/MNGWYw26/umgn/mnghw/mnghw.tmp/measdif_v1_0_project /home/mat/mywork/mng/MNGWYw26/umgn/mnghw/ip_repo/measdif_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,919 MB. GUI used memory: 92 MB. Current time: 1/7/26, 3:06:47 PM CET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mat/mywork/mng/MNGWYw26/umgn/mnghw/ip_repo/measdif_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'h' command handler elapsed time: 13 seconds
+dismissDialog("Edit in IP Packager"); // bq (Edit in IP Packager Progress)
+// [GUI Memory]: 171 MB (+11600kb) [00:00:54]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd), measdif_v1_0_S00_AXI_inst : measdif_v1_0_S00_AXI(arch_imp) (measdif_v1_0_S00_AXI.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd), measdif_v1_0_S00_AXI_inst : measdif_v1_0_S00_AXI(arch_imp) (measdif_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// [Engine Memory]: 2,024 MB (+77337kb) [00:01:00]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0_S00_AXI.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 21 seconds
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 218, 411); // ad (measdif_v1_0_S00_AXI.vhd)
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 228, 408); // ad (measdif_v1_0_S00_AXI.vhd)
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 228, 408, false, false, false, false, true); // ad (measdif_v1_0_S00_AXI.vhd) - Double Click
+// Elapsed time: 24 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 117, 317); // ad (measdif_v1_0_S00_AXI.vhd)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd), measdif_v1_0_S00_AXI_inst : measdif_v1_0_S00_AXI(arch_imp) (measdif_v1_0_S00_AXI.vhd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd), measdif_v1_0_S00_AXI_inst : measdif_v1_0_S00_AXI(arch_imp) (measdif_v1_0_S00_AXI.vhd), adcRX : adc2lane(Behavioral) (adc2lane.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd), measdif_v1_0_S00_AXI_inst : measdif_v1_0_S00_AXI(arch_imp) (measdif_v1_0_S00_AXI.vhd), adcRX : adc2lane(Behavioral) (adc2lane.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, measdif_v1_0(arch_imp) (measdif_v1_0.vhd), measdif_v1_0_S00_AXI_inst : measdif_v1_0_S00_AXI(arch_imp) (measdif_v1_0_S00_AXI.vhd), adcRX : adc2lane(Behavioral) (adc2lane.vhd)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("adc2lane.vhd", 82, 218); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 101, 350); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 101, 350, false, false, false, false, true); // ad (adc2lane.vhd) - Double Click
+selectCodeEditor("adc2lane.vhd", 170, 343); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 167, 348); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 167, 348, false, false, false, false, true); // ad (adc2lane.vhd) - Double Click
+// Elapsed time: 114 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0_S00_AXI.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 30 seconds
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 234, 338); // ad (measdif_v1_0_S00_AXI.vhd)
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 233, 338, false, false, false, false, true); // ad (measdif_v1_0_S00_AXI.vhd) - Double Click
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adc2lane.vhd", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 20 seconds
+selectCodeEditor("adc2lane.vhd", 469, 293); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 472, 296); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 471, 296, false, false, false, false, true); // ad (adc2lane.vhd) - Double Click
+// Elapsed time: 245 seconds
+selectCodeEditor("adc2lane.vhd", 533, 248); // ad (adc2lane.vhd)
+selectCodeEditor("adc2lane.vhd", 171, 239); // ad (adc2lane.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0_S00_AXI.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adc2lane.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0_S00_AXI.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 444, 503); // ad (measdif_v1_0_S00_AXI.vhd)
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adc2lane.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("adc2lane.vhd", 559, 136); // ad (adc2lane.vhd)
+typeControlKey((HResource) null, "adc2lane.vhd", 'c'); // ad (adc2lane.vhd)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "measdif_v1_0_S00_AXI.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 431, 210); // ad (measdif_v1_0_S00_AXI.vhd)
+typeControlKey((HResource) null, "measdif_v1_0_S00_AXI.vhd", 'c'); // ad (measdif_v1_0_S00_AXI.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("measdif_v1_0_S00_AXI.vhd", 421, 225); // ad (measdif_v1_0_S00_AXI.vhd)
+typeControlKey((HResource) null, "measdif_v1_0_S00_AXI.vhd", 'c'); // ad (measdif_v1_0_S00_AXI.vhd)
+// [GUI Memory]: 180 MB (+499kb) [00:16:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,082 MB. GUI used memory: 101 MB. Current time: 1/7/26, 3:36:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,082 MB. GUI used memory: 101 MB. Current time: 1/7/26, 4:06:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,082 MB. GUI used memory: 81 MB. Current time: 1/7/26, 4:36:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 5:06:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 5:36:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 6:06:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 6:36:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/7/26, 7:06:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/7/26, 7:36:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/7/26, 8:06:52 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/7/26, 8:36:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 9:06:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 9:36:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 10:06:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 10:36:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/7/26, 11:06:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/7/26, 11:36:53 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/8/26, 12:06:53 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/8/26, 12:36:53 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/8/26, 1:06:53 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/8/26, 1:36:53 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 2:06:53 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/8/26, 2:36:53 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 3:06:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 3:36:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 4:06:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 4:36:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 5:06:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 5:36:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 6:06:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 82 MB. Current time: 1/8/26, 6:36:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 83 MB. Current time: 1/8/26, 7:06:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,086 MB. GUI used memory: 83 MB. Current time: 1/8/26, 7:36:54 AM CET
