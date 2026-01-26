@@ -5,7 +5,7 @@ The **Measurement Network Gateway (MNG)** is a reliable networking solution desi
 ![Vivado Block Design](docs/mngposter.png)
 
 
-## 2. Objective
+## Objective
 There may be systems that require **more than 20 sensor nodes**, and it is critical to **monitor and manage these nodes in a reliable and efficient manner**.  
 
 Since **programmable logic (FPGA)** provides **reconfigurable I/O pins**, it enables efficient data acquisition from **multiple sensor nodes** through the **Programmable Logic (PL)** with **very low latency**. This approach allows parallel data handling and improves system performance.
@@ -13,26 +13,26 @@ Since **programmable logic (FPGA)** provides **reconfigurable I/O pins**, it ena
 As the system requires **networking capabilities** and **reliable hardware access**, **PetaLinux** is used to create a **custom Embedded Linux image** running on the **ZedBoard**. This allows seamless integration of hardware and software while supporting scalable, flexible, and reliable system operation.
 
 
-## 3. System Architecture
+## System Architecture
 
 
 ![Vivado Block Design](docs/systemarch.png)
 
 
-### 3.1 Hardware Block Design
+### Hardware Block Design
 The hardware platform is implemented on the **ZedBoard (Zynq-7000 SoC)** using **Vivado**.  
-The block design consists of the **Processing System (PS)** and **Programmable Logic (PL)** connected via **AXI interconnects**.
+The block design consists of the **Processing System (PS)**, **Programmable Logic (PL)** connected via **AXI interconnects** and our custom IP **measdif_v1.0** for communicate with sensors .
 
 ![Vivado Block Design](docs/blockdesign.png)
 
-### 3.1 Application Layer
+### Application Layer
 The application layer is shown in the following figure.  
 For more details, please refer to the [Software Development Report](docs/software-development-report.md).
 
 ![Vivado Block Design](docs/applayer1.png)
 
 
-## 3. Demo Link
+## Demo Link
 
 Please visit the following link to watch the full project demo video:  
 [Project Demo Video](https://your-link-here)
