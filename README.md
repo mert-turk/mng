@@ -14,17 +14,23 @@ As the system requires **networking capabilities** and **reliable hardware acces
 
 
 ## 3. System Architecture
---explanation of system arch
-show arch here
+
+
+![Vivado Block Design](docs/systemarch.png)
 
 
 ### 3.1 Hardware Block Design
 The hardware platform is implemented on the **ZedBoard (Zynq-7000 SoC)** using **Vivado**.  
 The block design consists of the **Processing System (PS)** and **Programmable Logic (PL)** connected via **AXI interconnects**.
 
+![Vivado Block Design](docs/blockdesign.png)
+
 ### 3.1 Software Architecture
-The hardware platform is implemented on the **ZedBoard (Zynq-7000 SoC)** using **Vivado**.  
-The block design consists of the **Processing System (PS)** and **Programmable Logic (PL)** connected via **AXI interconnects**.
+The software architecture is shown in the following figure.  
+For more details, please refer to the [Software Development Report](docs/software-development-report.md).
+
+![Vivado Block Design](docs/applayer.png)
+
 
 
 
