@@ -25,13 +25,14 @@ The block design consists of the **Processing System (PS)** and **Programmable L
 
 ![Vivado Block Design](docs/blockdesign.png)
 
-### 3.1 Software Architecture
-The software architecture is shown in the following figure.  
+### 3.1 Application Layer
+The application layer is shown in the following figure.  
 For more details, please refer to the [Software Development Report](docs/software-development-report.md).
 
-![Vivado Block Design](docs/applayer.png)
+![Vivado Block Design](docs/applayer1.png)
 
 
+## 3. Demo Link
 
-
-![Vivado Block Design](docs/block_diagram.png)
+Please visit the following link to watch the full project demo video:  
+[Project Demo Video](https://your-link-here)
