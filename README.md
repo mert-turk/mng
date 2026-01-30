@@ -32,7 +32,7 @@ For more details, please refer to the [Software Development Report](docs/softwar
 ![Vivado Block Design](docs/applayer1.png)
 
 
-## Demo Link
+## Demo Video Link
 
 Please visit the following link to watch the full project demo video:  
-[Project Demo Video](https://your-link-here)
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VPsVUTGnpqo)
